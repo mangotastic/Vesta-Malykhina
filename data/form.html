@@ -1,0 +1,64 @@
+<!DOCTYPE HTML5>
+<html>
+<head>
+	<title>Form</title>
+	<!--
+		A set of fields taking in data
+	-->
+</head>
+<body>
+	<form>
+		<fieldset>
+			<input id="t01" type="hidden" /> <!--bengal # tracker-->
+			<input id="i01" type="text" /> <!--input-->
+			<input id="i02" type="text" />
+			<input id="io3" type="password" />
+		</fieldset>
+
+		<fieldset>
+			<select id="s01">
+				<!--favorite color dropdown list-->
+				<option value="green"></option>
+				<option value="blue"></option>
+				<option selected="red"></option>
+				<option value="yellow"></option>
+				<option value="black"></option>
+				<option value="white"></option>
+				<option value="orange"></option>
+				<option value="dark blue"></option>
+				<option value="purple"></option>
+				<option value="pink"></option>
+			</select>
+		</fieldset>
+
+		<fieldset>
+			Day of the Week:
+			<input id="r01" value="Monday" type="radio" />
+			<input id="r02" value="Tuesday" type="radio" />
+			<input id="r03" value="Wednesday" type="radio" />
+			<input id="r04" value="Thursday" type="radio" />
+			<input id="r05" value="Friday" type="radio" />
+			<input id="r06" value="Saturday" type="radio" />
+			<input id="r07" value="Sunday" type="radio" />
+		</fieldset> <!--box of weekday radio buttons-->
+
+		<fieldset>
+			Times:
+			<input id="cb01" value="11 A.M." type="checkbox" />
+			<input id="cb02" value="12 PM." type="checkbox" />
+			<input id="cb03" value="1 PM." type="checkbox" />
+			<input id="cb04" value="2 PM." type="checkbox" />
+			<input id="cbo5" value="3 PM." type="checkbox" />
+		</fieldset> <!--box of time checkboxes-->
+
+		<fieldset>
+			Description:
+			<textarea id="ta01" rows="10" cols="40"></textarea><!--textarea 1-->
+		</fieldset>
+
+		<fieldset>
+			<input id="submit1" type="submit" value="Send to Server" />
+		</fieldset>
+	</form>
+</body>
+</html>
